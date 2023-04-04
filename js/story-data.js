@@ -162,6 +162,7 @@ const storyOptions = [
     options: [
       {
         text: `Congrats on not poisoning yourself or your friend! Click here to restart the story.`,
+        nextPart: 1
       }
     ]
   },
@@ -170,7 +171,8 @@ const storyOptions = [
     text: `Your friend says that it tastes amazing & you both enjoy a great meal.`,
     options: [
       {
-        text:`Congrats on making a delicious & not poisionous stew! Click here to restart the story.`
+        text:`Congrats on making a delicious & not poisionous stew! Click here to restart the story.`,
+        nextPart: 1
       }
     ]
   },
@@ -179,7 +181,8 @@ const storyOptions = [
     text: `You eat the mushroom & as you start to digest it you feel queasy & feverish. You have consumed a very poisonous mushroom!`,
     options: [
       {
-        text:'Maybe you should be more carful next time about what mushrooms you pick for stew... Want to try again?'
+        text:'Maybe you should be more carful next time about what mushrooms you pick for stew... Want to try again?',
+        nextPart: 1
       }
     ]
   }

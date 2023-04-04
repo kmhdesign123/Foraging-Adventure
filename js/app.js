@@ -44,7 +44,9 @@ function showOption(option) {
 }
 
 function selectOption(option) {
-
+const nextStoryOptionId = option.nextPart
+player = Object.assign(player, option.setPlayer)
+showStoryText(nextStoryOptionId)
 }
 
 startStory()
