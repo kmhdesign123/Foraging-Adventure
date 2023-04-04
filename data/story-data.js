@@ -4,7 +4,7 @@ const storyOptions = [
     text:`You want to make a mushroom stwe for you and your friend today & need to go foraging for ingredients`,
     options: [
       {
-        text: `Take the mossy forest path`
+        text: `Take the mossy forest path`,
         setPlayer: { mossyPath: true },
         nextPart: 2
       },
@@ -72,7 +72,7 @@ const storyOptions = [
     options: [
       {
         text:`Pick the mushrooms and head back to startd on that stew!`,
-        setPlayer: {treeMushrooms = true},
+        setPlayer: {treeMushrooms: true},
         nextPart: 9
       }
     ]
@@ -83,7 +83,7 @@ const storyOptions = [
     options: [
       {
         text:`Keep going you know that you'll find the mushrooms soon`,
-        setPlayer: {riverSecondCont = true},
+        setPlayer: {riverSecondCont: true},
         nextPart: 10
       },
       {
@@ -113,7 +113,7 @@ const storyOptions = [
     options: [
       {
         text:`Your friend died from your mushroom stew... maybe click this to start over & make better choices next time.`,
-        setPlayer: {friendIsDead = true},
+        setPlayer: {friendIsDead: true},
         nextPart: 1
       }
     ]
@@ -123,13 +123,64 @@ const storyOptions = [
     text: `You started making the mushroom stew & your friend says that it smells delicious & goes to taste test it.`,
     options: [
       {
-        text:`Taste test it with your friend`
+        text:`Taste test it with your friend`,
         setPlayer: {
-          ateDeliciousMushroomStew = true,
-          playerIsAlive = true
-        }
+          ateDeliciousMushroomStew: true,
+          playerIsAlive: true
+        },
         nextPart: 11
+      },
+      {
+        text:`See how you friend likes it as you coninue stirring the stew.`,
+        setPlayer: {
+          friendAteDeliciousMushroomStew: true,
+          playerIsAlive: true
+        },
+        nextPart: 12
       }
     ]
   },
+  {
+    part:10,
+    text: `You have been walkign the river path for a long time now but you finally see those mushroom you remembers, and now that you are exausted and hungry you pick them & head back to make stew & hope your friend forgives you for a late meal`,
+    options: [
+      {
+        text:`Im pretty hungry now I think I'll just have one mushroom as a snack for my trip back`,
+        setPlayer: {playerIsAlive: false},
+        nextPart: 13
+      },
+      {
+        text: `I dont want to not have enough mushrooms for the stew so I'll wait to eat.`,
+        setPlayer: {playerIsAlive: true},
+        nextPart: 4
+      }
+    ]
+  },
+  {
+    part: 11,
+    text: `You and your friend enjoy the soup and hangout all night sharing the mushroom soup, today was a good day!`,
+    options: [
+      {
+        text: `Congrats on not poisoning yourself or your friend! Click here to restart the story.`,
+      }
+    ]
+  },
+  {
+    part: 12,
+    text: `Your friend says that it tastes amazing & you both enjoy a great meal.`,
+    options: [
+      {
+        text:`Congrats on making a delicious & not poisionous stew! Click here to restart the story.`
+      }
+    ]
+  },
+  {
+    part: 13,
+    text: `You eat the mushroom & as you start to digest it you feel queasy & feverish. You have consumed a very poisonous mushroom!`,
+    options: [
+      {
+        text:'Maybe you should be more carful next time about what mushrooms you pick for stew... Want to try again?'
+      }
+    ]
+  }
 ]
