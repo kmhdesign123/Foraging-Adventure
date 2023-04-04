@@ -2,22 +2,17 @@ import storyOptions from "./story-data.js"
 
 /*---------------------------- Variables (state) ----------------------------*/
 
-let player = {}
-
+let playerState = {}
 
 /*------------------------ Cached Element References ------------------------*/
 
 const storyEl = document.getElementById(`story-text`)
 const optionBtnEl = document.getElementById(`option-btns`)
 
-/*----------------------------- Event Listeners -----------------------------*/
-
-// event listeners for button clicks & player state dependant actions here
-
 /*-------------------------------- Functions --------------------------------*/
 
 function startStory() {
-player = {}
+playerState = {}
 showStoryText(1)
 }
 

@@ -5,12 +5,10 @@ const storyOptions = [
     options: [
       {
         text: `Take the mossy forest path`,
-        setPlayer: { mossyPath: true },
         nextPart: 2
       },
       {
         text:'Take the path along the river today',
-        setPlayer: {riverPath: true},
         nextPart: 3
       }
     ]
@@ -22,7 +20,7 @@ const storyOptions = [
     options: [
       {
         text:`Collect all of the mushrooms making up the fairy cicle & head home to make stew!`,
-        setPlayer: {fairyMushrooms: true},
+        setPlayer: {poisionousMushrooms: true},
         nextPart: 4
       },
       {
@@ -36,32 +34,25 @@ const storyOptions = [
     text:`The path along the river doesnt seem to have many mushrooms so far but you vaugly remember seeing some the last time you went for a walk along the river`,
     options:[
       {
-        text:`Keep going youa are pretty sure that ypu saw some mushrooms down this way`,
-        setPlayer: {riverCont: true},
+        text:`Keep going you are pretty sure that ypu saw some mushrooms down this way`,
         nextPart: 6
       },
       {
         text:`turn back & take the mossy forest path instead`,
-        setPlayer: {
-          riverPath: false,
-          mossyPath: true
-        },
         nextPart: 2
       }
     ]
   },
   {
     part: 4,
-    text:`You get home & start making your mushroom stew with your friend & it's almost done! your friend scoops a little bit onto a spoon to taste test it.`,
+    text:`You get home & start making your mushroom stew with your friend & it's almost done! Your friend scoops a little bit onto a spoon to taste test it.`,
     options: [
       {
         text:`You also get a spoon to taste test it with your friend`,
-        setPlayer: {atePoisionousMushroomStew: true},
         nextPart: 7
       },
       {
         text:`You keep stirring the stew proudly and wait to see how your friend likes it`,
-        setPlayer: {friendAtePoisionousMushroomStew: true},
         nextPart: 8
       }
     ]
@@ -72,7 +63,6 @@ const storyOptions = [
     options: [
       {
         text:`Pick the mushrooms and head back to startd on that stew!`,
-        setPlayer: {treeMushrooms: true},
         nextPart: 9
       }
     ]
@@ -83,15 +73,10 @@ const storyOptions = [
     options: [
       {
         text:`Keep going you know that you'll find the mushrooms soon`,
-        setPlayer: {riverSecondCont: true},
         nextPart: 10
       },
       {
         text:`Maybe I was wrong...Turn back and check the forest path.`,
-        setPlayer: {
-          riverPath: false,
-          mossyPath: true
-        },
         nextPart: 2
       }
     ]
@@ -102,7 +87,6 @@ const storyOptions = [
     options: [
       {
         text:`you both die from the mushroom stew, click here to start the story over.`,
-        setPlayer: {playerIsAlive: false},
         nextPart: 1
       },
     ]
@@ -113,7 +97,6 @@ const storyOptions = [
     options: [
       {
         text:`Your friend died from your mushroom stew... maybe click this to start over & make better choices next time.`,
-        setPlayer: {friendIsDead: true},
         nextPart: 1
       }
     ]
@@ -124,18 +107,10 @@ const storyOptions = [
     options: [
       {
         text:`Taste test it with your friend`,
-        setPlayer: {
-          ateDeliciousMushroomStew: true,
-          playerIsAlive: true
-        },
         nextPart: 11
       },
       {
         text:`See how you friend likes it as you coninue stirring the stew.`,
-        setPlayer: {
-          friendAteDeliciousMushroomStew: true,
-          playerIsAlive: true
-        },
         nextPart: 12
       }
     ]
@@ -146,12 +121,10 @@ const storyOptions = [
     options: [
       {
         text:`Im pretty hungry now I think I'll just have one mushroom as a snack for my trip back`,
-        setPlayer: {playerIsAlive: false},
         nextPart: 13
       },
       {
         text: `I dont want to not have enough mushrooms for the stew so I'll wait to eat.`,
-        setPlayer: {playerIsAlive: true},
         nextPart: 4
       }
     ]
