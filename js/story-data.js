@@ -184,3 +184,5 @@ const storyOptions = [
     ]
   }
 ]
+
+export default storyOptions

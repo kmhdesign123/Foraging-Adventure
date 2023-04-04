@@ -1,3 +1,5 @@
+import storyOptions from "./story-data.js"
+
 /*---------------------------- Variables (state) ----------------------------*/
 
 let player = {}
@@ -19,8 +21,9 @@ player = {}
 showStoryText(1)
 }
 
-function showStoryText(storyTextIdx) {
-
+function showStoryText(storyOptionIndex) {
+ const storyOption = storyOptions.find(storyOption => storyOption.part === storyOptionIndex)
+ storyEl.innerText = storyOption.text
 }
 
 function selectOption(option) {
