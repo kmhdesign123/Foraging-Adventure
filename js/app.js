@@ -35,12 +35,12 @@ function showStoryText(storyOptionIndex) {
 }
 
 function showOption(option) {
-  return true
+  return option.requiredPlayerState == null || option.requiredPlayerState(playerState)
 }
 
 function selectOption(option) {
 const nextStoryOptionId = option.nextPart
-player = Object.assign(player, option.setPlayer)
+playerState = Object.assign(playerState, option.setPlayer)
 showStoryText(nextStoryOptionId)
 }
 
