@@ -83,10 +83,10 @@ const storyOptions = [
   },
   {
     part: 7,
-    text:`You both start to feel nauseous and think it may have been a mistake to not double check that your mushrooms were edible & not poisionous`,
+    text:`You both start to feel nauseous and think it may have been a mistake to not double check that your mushrooms were edible & not poisionous.`,
     options: [
       {
-        text:`you both die from the mushroom stew, click here to start the story over.`,
+        text:`You both die from the mushroom stew... Click here to start the story over.`,
         nextPart: 1
       },
     ]
