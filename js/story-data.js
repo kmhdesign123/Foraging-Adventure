@@ -131,7 +131,7 @@ const storyOptions = [
   },
   {
     part: 11,
-    text: `You and your friend enjoy the soup and hangout all night sharing the mushroom soup, today was a good day!`,
+    text: `You and your friend enjoy the soup and hangout all night sharing stories, today was a good day!`,
     options: [
       {
         text: `Congrats on not poisoning yourself or your friend! Click here to restart the story.`,
