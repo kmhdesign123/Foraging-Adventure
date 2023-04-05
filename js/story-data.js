@@ -45,14 +45,14 @@ const storyOptions = [
   },
   {
     part: 4,
-    text:`You get home & start making your mushroom stew with your friend & it's almost done! Your friend scoops a little bit onto a spoon to taste test it.`,
+    text:`You get home & start making mushroom stew for you and your friend. It's almost done! Your friend scoops a little bit onto a spoon to taste test it.`,
     options: [
       {
-        text:`You also get a spoon to taste test it with your friend`,
+        text:`You also grab a spoon to taste test it with your friend.`,
         nextPart: 7
       },
       {
-        text:`You keep stirring the stew proudly and wait to see how your friend likes it`,
+        text:`You keep stirring the stew proudly and wait to see how your friend likes it.`,
         nextPart: 8
       }
     ]
