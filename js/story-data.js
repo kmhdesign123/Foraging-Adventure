@@ -16,15 +16,15 @@ const storyOptions = [
 
   {
     part: 2,
-    text:`The forest path is bright & there is a cool breeze between the trees, you come upon a grove with a fairy circle of various mushrooms! These could be enough to make your whole stew today!`,
+    text:`The forest path is bright & there is a cool breeze between the trees. You come up to a grove with a fairy circle of various mushrooms! These might be enough to make your whole stew!`,
     options: [
       {
-        text:`Collect all of the mushrooms making up the fairy cicle & head home to make stew!`,
+        text:`Collect all of the mushrooms in the fairy cicle & head home to make stew!`,
         setPlayer: {poisionousMushrooms: true},
         nextPart: 4
       },
       {
-        text:`Leave the fairy cicle mushrooms alone and keep looking`,
+        text:`Leave the fairy cicle mushrooms alone and keep looking.`,
         nextPart: 5
       }
     ]
