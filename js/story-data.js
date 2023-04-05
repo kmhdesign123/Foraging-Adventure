@@ -69,10 +69,10 @@ const storyOptions = [
   },
   {
     part: 6,
-    text: `You have gone down the river path & still havent come across the spot you remember, but you KNOW you saw them.`,
+    text: `You have gone furthur down the river path & still haven't come across the spot you remember, but you KNOW you saw them last time.`,
     options: [
       {
-        text:`Keep going you know that you'll find the mushrooms soon`,
+        text:`Keep going because you just know that you'll find the mushrooms soon.`,
         nextPart: 10
       },
       {
