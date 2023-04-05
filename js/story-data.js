@@ -30,6 +30,7 @@ const storyOptions = [
       },
       {
         text:`Leave the fairy cicle mushrooms alone and keep looking.`,
+        setPlayerState: {edibleMushrooms: true},
         nextPart: 5
       }
     ]
@@ -59,7 +60,13 @@ const storyOptions = [
       },
       {
         text:`You keep stirring the stew proudly and wait to see how your friend likes it.`,
+        requiredPlayerState: (currentPlayerState) => currentPlayerState.poisionousMushrooms,
         nextPart: 8
+      },
+      {
+        text:`You keep stirring the stew proudly and wait to see how your friend likes it.`,
+        requiredPlayerState: (currentPlayerState) => !currentPlayerState.poisionousMushrooms,
+        nextPart: 10
       }
     ]
   },
@@ -69,6 +76,7 @@ const storyOptions = [
     options: [
       {
         text:`Pick the mushrooms and head back to start on that stew!`,
+        setPlayerState: {edibleMushrooms: true},
         nextPart: 4
       },
       {
@@ -122,6 +130,7 @@ const storyOptions = [
       },
       {
         text: `I want to have enough mushrooms for the stew so I'll wait to eat.`,
+        setPlayerState: {poisionousMushrooms: true},
         nextPart: 4
       }
     ]

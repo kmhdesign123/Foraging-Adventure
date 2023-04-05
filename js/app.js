@@ -34,14 +34,15 @@ function showStoryText(storyOptionIndex) {
   })
 }
 
-function showOption(option) {
-  return option.requiredPlayerState == null || option.requiredPlayerState(playerState)
-}
 
 function selectOption(option) {
 const nextStoryOptionId = option.nextPart
-playerState = Object.assign(playerState, option.setPlayer)
+playerState = Object.assign(playerState, option.setPlayerState)
 showStoryText(nextStoryOptionId)
+}
+
+function showOption(option) {
+  return option.requiredPlayerState == null || option.requiredPlayerState(playerState)
 }
 
 startStory()
