@@ -117,14 +117,14 @@ const storyOptions = [
   },
   {
     part:10,
-    text: `You have been walkign the river path for a long time now but you finally see those mushroom you remembers, and now that you are exausted and hungry you pick them & head back to make stew & hope your friend forgives you for a late meal`,
+    text: `You have been walking along the river path for a long time now but you finally see those mushrooms! Now that its dark and you are exausted & hungry you pick them and head back to make stew hoping your friend forgives you for the late meal.`,
     options: [
       {
-        text:`Im pretty hungry now I think I'll just have one mushroom as a snack for my trip back`,
+        text:`I'm pretty hungry now I think I'll just have one mushroom as a snack for my trip back.`,
         nextPart: 13
       },
       {
-        text: `I dont want to not have enough mushrooms for the stew so I'll wait to eat.`,
+        text: `I want to have enough mushrooms for the stew so I'll wait to eat.`,
         nextPart: 4
       }
     ]
