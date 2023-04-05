@@ -31,14 +31,14 @@ const storyOptions = [
   },
   {
     part:3,
-    text:`The path along the river doesnt seem to have many mushrooms so far but you vaugly remember seeing some the last time you went for a walk along the river`,
+    text:`The path along the river doesn't seem to have many mushrooms so far... but you vaugly remember seeing some the last time you went for a walk along the river.`,
     options:[
       {
-        text:`Keep going you are pretty sure that ypu saw some mushrooms down this way`,
+        text:`Keep going, you are pretty sure that you saw some mushrooms down this way.`,
         nextPart: 6
       },
       {
-        text:`turn back & take the mossy forest path instead`,
+        text:`Turn back & take the mossy forest path instead.`,
         nextPart: 2
       }
     ]
