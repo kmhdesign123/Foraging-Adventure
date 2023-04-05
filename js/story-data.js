@@ -24,6 +24,11 @@ const storyOptions = [
         nextPart: 4
       },
       {
+        text:`Collect all of the mushrooms in the fairy cicle & keep looking for more mushrooms!`,
+        setPlayer: {poisionousMushrooms: true},
+        nextPart: 5,
+      },
+      {
         text:`Leave the fairy cicle mushrooms alone and keep looking.`,
         nextPart: 5
       }
