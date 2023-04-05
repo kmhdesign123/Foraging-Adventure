@@ -20,12 +20,12 @@ const storyOptions = [
     options: [
       {
         text:`Collect all of the mushrooms in the fairy cicle & head home to make stew!`,
-        setPlayer: {poisionousMushrooms: true},
+        setPlayerState: {poisionousMushrooms: true},
         nextPart: 4
       },
       {
         text:`Collect all of the mushrooms in the fairy cicle & keep looking for more mushrooms!`,
-        setPlayer: {poisionousMushrooms: true},
+        setPlayerState: {poisionousMushrooms: true},
         nextPart: 5,
       },
       {
@@ -54,6 +54,7 @@ const storyOptions = [
     options: [
       {
         text:`You also grab a spoon to taste test it with your friend.`,
+
         nextPart: 7
       },
       {
@@ -69,6 +70,10 @@ const storyOptions = [
       {
         text:`Pick the mushrooms and head back to start on that stew!`,
         nextPart: 9
+      },
+      {
+        text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms.`
+        requiredPlayerState: (currentPlayerState) => currentPlayerState.poisionousMushrooms,
       }
     ]
   },
