@@ -106,7 +106,7 @@ const storyOptions = [
     text: `You started making the mushroom stew & your friend says that it smells delicious & goes to taste test it.`,
     options: [
       {
-        text:`Taste test it with your friend`,
+        text:`Taste test it with your friend.`,
         nextPart: 11
       },
       {
