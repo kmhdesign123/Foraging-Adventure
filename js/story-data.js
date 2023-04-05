@@ -72,7 +72,7 @@ const storyOptions = [
         nextPart: 9
       },
       {
-        text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms.`
+        text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms.`,
         requiredPlayerState: (currentPlayerState) => currentPlayerState.poisionousMushrooms,
       }
     ]
