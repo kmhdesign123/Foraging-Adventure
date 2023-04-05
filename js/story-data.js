@@ -69,7 +69,7 @@ const storyOptions = [
     options: [
       {
         text:`Pick the mushrooms and head back to start on that stew!`,
-        nextPart: 9
+        nextPart: 4
       },
       {
         text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms. You head home now`,
@@ -84,7 +84,7 @@ const storyOptions = [
     options: [
       {
         text:`Keep going because you just know that you'll find the mushrooms soon.`,
-        nextPart: 10
+        nextPart: 9
       },
       {
         text:`Maybe I was wrong...Turn back and check the forest path.`,
@@ -113,26 +113,12 @@ const storyOptions = [
     ]
   },
   {
-    part: 9,
-    text: `You started making the mushroom stew & your friend says that it smells delicious & goes to taste test it.`,
-    options: [
-      {
-        text:`Taste test it with your friend.`,
-        nextPart: 11
-      },
-      {
-        text:`See how you friend likes it as you coninue stirring the stew.`,
-        nextPart: 12
-      }
-    ]
-  },
-  {
-    part:10,
+    part:9,
     text: `You have been walking along the river path for a long time now but you finally see those mushrooms! Now that its dark and you are exausted & hungry you pick them and head back to make stew hoping your friend forgives you for the late meal.`,
     options: [
       {
         text:`I'm pretty hungry now I think I'll just have one mushroom as a snack for my trip back.`,
-        nextPart: 13
+        nextPart: 11
       },
       {
         text: `I want to have enough mushrooms for the stew so I'll wait to eat.`,
@@ -141,7 +127,7 @@ const storyOptions = [
     ]
   },
   {
-    part: 11,
+    part: 10,
     text: `You and your friend enjoy the soup and hangout all night sharing stories, today was a good day!`,
     options: [
       {
@@ -151,17 +137,7 @@ const storyOptions = [
     ]
   },
   {
-    part: 12,
-    text: `Your friend says that it tastes amazing & you both enjoy a great meal.`,
-    options: [
-      {
-        text:`Congrats on making a delicious & not poisionous stew! Click here to restart the story.`,
-        nextPart: 1
-      }
-    ]
-  },
-  {
-    part: 13,
+    part: 11,
     text: `You eat the mushroom & as you start to digest it you feel queasy & feverish. You have just consumed a very poisonous mushroom!`,
     options: [
       {
