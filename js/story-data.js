@@ -54,7 +54,7 @@ const storyOptions = [
     options: [
       {
         text:`You also grab a spoon to taste test it with your friend.`,
-
+        requiredPlayerState: (currentPlayerState) => currentPlayerState.poisionousMushrooms,
         nextPart: 7
       },
       {
@@ -72,8 +72,9 @@ const storyOptions = [
         nextPart: 9
       },
       {
-        text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms.`,
+        text:`You think you have enough mushrooms from the fairy circle, leave these for someone else or the next time you need mushrooms. You head home now`,
         requiredPlayerState: (currentPlayerState) => currentPlayerState.poisionousMushrooms,
+        nextPart: 4
       }
     ]
   },
