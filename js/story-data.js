@@ -1,14 +1,14 @@
 const storyOptions = [
   {
     part: 1,
-    text:`You want to make a mushroom stwe for you and your friend today & need to go foraging for ingredients`,
+    text:`You want to make a mushroom stew for you and your friend today & need to go foraging for ingredients.`,
     options: [
       {
-        text: `Take the mossy forest path`,
+        text: `Take the mossy forest path.`,
         nextPart: 2
       },
       {
-        text:'Take the path along the river today',
+        text:'Take the path along the river today.',
         nextPart: 3
       }
     ]
