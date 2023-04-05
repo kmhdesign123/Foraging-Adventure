@@ -59,10 +59,10 @@ const storyOptions = [
   },
   {
     part: 5,
-    text:`You get deeper into the forest & come across a fallen log with mushrooms on the side of it & some growing on the ground next to it.`,
+    text:`You go deeper into the forest & come across a fallen log with mushrooms on the side of it & some other mushrooms growing on the ground next to it.`,
     options: [
       {
-        text:`Pick the mushrooms and head back to startd on that stew!`,
+        text:`Pick the mushrooms and head back to start on that stew!`,
         nextPart: 9
       }
     ]
