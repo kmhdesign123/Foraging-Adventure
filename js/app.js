@@ -8,6 +8,7 @@ let playerState = {}
 
 const storyEl = document.getElementById(`story-text`)
 const optionBtnEl = document.getElementById(`option-btns`)
+const optionImgEl = document.getElementById(`option-imgs`)
 
 /*-------------------------------- Functions --------------------------------*/
 
