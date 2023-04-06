@@ -15,13 +15,7 @@ function startStory() {
 playerState = {}
 showStoryText(1)
 }
-optionBtnEl.addEventListener(`click`, animation)
 
-function animation(){
-optionBtnEl.classList.remove(`animate__animated`, `animate__bounce`)
-optionBtnEl.offsetHeight
-optionBtnEl.classList.add(`animate__animated`, `animate__bounce`)
-}
 
 function showStoryText(storyOptionIndex) {
   const storyOption = storyOptions.find(storyOption => storyOption.part === storyOptionIndex)
@@ -35,7 +29,13 @@ function showStoryText(storyOptionIndex) {
     button.innerText = option.text
     button.classList.add('btn')
     button.addEventListener(`click`, () => selectOption(option))
+    button.addEventListener(`mouseover`, animation)
     optionBtnEl.appendChild(button)
+    function animation(){
+      button.classList.remove(`animate__animated`, `animate__pulse`)
+      button.offsetHeight
+      button.classList.add(`animate__animated`, `animate__pulse`) 
+      }
     }
   })
 }
