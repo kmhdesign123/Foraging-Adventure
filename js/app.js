@@ -39,6 +39,13 @@ function showStoryElements(storyOptionIndex) {
       }
     }
   })
+  storyOption.img.forEach(link => {
+    // if (showImage(link)) {
+      const image = document.createElement(`img`)
+      image.src = link.location
+      optionImgEl.appendChild(image)
+    // }
+  })
 }
 
 function selectOption(option) {
@@ -50,5 +57,9 @@ showStoryElements(nextStoryOptionId)
 function showOption(option) {
   return option.requiredPlayerState == null || option.requiredPlayerState(playerState)
 }
+
+// function showImage(image) {
+//   return true
+// }
 
 startStory()

@@ -4,10 +4,10 @@ const storyOptions = [
     text:`You want to make a mushroom stew for you and your friend today & need to go foraging for ingredients.`,
     img: [
       {
-        imgLocation:`./img/forest-path.jpg`
+        location:`./img/forest-path.jpg`
       },
       {
-        imgLocation:`./img/river-path.jpg`
+        location:`./img/river-path.jpg`
       }
     ],
     options: [
