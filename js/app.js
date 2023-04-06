@@ -15,6 +15,13 @@ function startStory() {
 playerState = {}
 showStoryText(1)
 }
+optionBtnEl.addEventListener(`click`, animation)
+
+function animation(){
+optionBtnEl.classList.remove(`animate__animated`, `animate__bounce`)
+optionBtnEl.offsetHeight
+optionBtnEl.classList.add(`animate__animated`, `animate__bounce`)
+}
 
 function showStoryText(storyOptionIndex) {
   const storyOption = storyOptions.find(storyOption => storyOption.part === storyOptionIndex)
@@ -29,7 +36,6 @@ function showStoryText(storyOptionIndex) {
     button.classList.add('btn')
     button.addEventListener(`click`, () => selectOption(option))
     optionBtnEl.appendChild(button)
-    console.log(option)
     }
   })
 }
