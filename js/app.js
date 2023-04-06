@@ -13,11 +13,11 @@ const optionBtnEl = document.getElementById(`option-btns`)
 
 function startStory() {
 playerState = {}
-showStoryText(1)
+showStoryElements(1)
 }
 
 
-function showStoryText(storyOptionIndex) {
+function showStoryElements(storyOptionIndex) {
   const storyOption = storyOptions.find(storyOption => storyOption.part === storyOptionIndex)
   storyEl.innerText = storyOption.text
   while (optionBtnEl.firstChild) {
@@ -40,11 +40,10 @@ function showStoryText(storyOptionIndex) {
   })
 }
 
-
 function selectOption(option) {
 const nextStoryOptionId = option.nextPart
 playerState = Object.assign(playerState, option.setPlayerState)
-showStoryText(nextStoryOptionId)
+showStoryElements(nextStoryOptionId)
 }
 
 function showOption(option) {
