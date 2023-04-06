@@ -37,7 +37,7 @@ const storyOptions = [
   },
   {
     part:3,
-    text:`The path along the river doesn't seem to have many mushrooms so far... but you vaugly remember seeing some the last time you went for a walk along the river.`,
+    text:`The path along the river doesn't seem to have many mushrooms so far... but you vaguely remember seeing some the last time you went for a walk along the river.`,
     options:[
       {
         text:`Keep going, you are pretty sure that you saw some mushrooms down this way.`,
@@ -88,7 +88,7 @@ const storyOptions = [
   },
   {
     part: 6,
-    text: `You have gone furthur down the river path & still haven't come across the spot you remember, but you KNOW you saw them last time.`,
+    text: `You have gone further down the river path & still haven't come across the spot you remember, but you KNOW you saw them last time.`,
     options: [
       {
         text:`Keep going because you just know that you'll find the mushrooms soon.`,
@@ -122,7 +122,7 @@ const storyOptions = [
   },
   {
     part:9,
-    text: `You have been walking along the river path for a long time now but you finally see those mushrooms! Now that its dark and you are exausted & hungry you pick them and head back to make stew hoping your friend forgives you for the late meal.`,
+    text: `You have been walking along the river path for a long time now but you finally see those mushrooms! Now that it's dark and you are exhausted & hungry you pick them and head back to make stew hoping your friend forgives you for the late meal.`,
     options: [
       {
         text:`I'm pretty hungry now I think I'll just have one mushroom as a snack for my trip back.`,
