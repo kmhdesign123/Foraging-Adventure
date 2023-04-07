@@ -104,7 +104,6 @@ const storyOptions = [
     options: [
       {
         text:`Pick the mushrooms and head back to start on that stew!`,
-        setPlayerState: {edibleMushrooms: true},
         nextPart: 4
       },
       {
@@ -144,6 +143,7 @@ const storyOptions = [
     options: [
       {
         text:`You both die from the mushroom stew. Click here to start the story over.`,
+        setPlayerState: {poisionousMushrooms: false},
         nextPart: 1
       },
     ]
@@ -159,6 +159,7 @@ const storyOptions = [
     options: [
       {
         text:`Your friend died from your mushroom stew. Maybe click this to start over & make better choices next time.`,
+        setPlayerState: {poisionousMushrooms: false},
         nextPart: 1
       }
     ]
@@ -209,6 +210,7 @@ const storyOptions = [
     options: [
       {
         text:'Maybe you should be more careful about what kind of mushrooms you pick. Want to try again?',
+        setPlayerState: {poisionousMushrooms: false},
         nextPart: 1
       }
     ]
