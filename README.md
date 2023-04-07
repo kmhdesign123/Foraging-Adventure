@@ -35,3 +35,5 @@ Image source Links
 - [river-mushroom.jpg](https://pin.it/1tmVxDv)
 - [river-path.jpg](https://i.pinimg.com/originals/41/28/e7/4128e743bd9ba254262536233f850f02.jpg)
 - [forest-path.jpg](https://www.instagram.com/p/CM6XKJaJFtZ/)
+- [favicon](https://www.flaticon.com/free-icons/mushroom)
+- [sound icon](https://www.flaticon.com/free-icons/speaker)

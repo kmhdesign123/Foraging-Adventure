@@ -39,12 +39,15 @@ function showStoryElements(storyOptionIndex) {
       }
     }
   })
+  while (optionImgEl.firstChild) {
+    optionImgEl.removeChild(optionImgEl.firstChild)
+    }
   storyOption.img.forEach(link => {
-    // if (showImage(link)) {
       const image = document.createElement(`img`)
+      image.classList.add(`img`)
       image.src = link.location
       optionImgEl.appendChild(image)
-    // }
+
   })
 }
 
