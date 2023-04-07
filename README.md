@@ -14,6 +14,7 @@ Is it edible or poisonous? Who knows! Adventure through this Animal Crossing New
 ## IceBox:
 - Add typewriter animation on story text
 - Add in my own gameplay photos & design instead of placeholder art
+- Add in style elements that mimic ACNH gameplay styling
 - Add in more story options and endings
 - Add custom audio files in place of placeholder audio
 - Add audio on certain button click events
