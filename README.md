@@ -1,5 +1,5 @@
-# Foraging Adventure Story
-Foraging for Mushrooms, is it edible or poisonous? Who knows! Adventure through this text-based game to find out! Try not to poison yourself or your friend!
+# Foraging For Mushrooms
+Is it edible or poisonous? Who knows! Adventure through this Animal Crossing New Horizons themed text-based story game to find out! Try not to poison yourself or your friend!
 ## Play the game [here](https://foraging-adventure.netlify.app)
 
 ![Screen Shot 2023-04-06 at 11 07 04 AM](https://user-images.githubusercontent.com/127788664/230435773-1d9a0b46-8e8e-4667-92aa-fa655c7a36e0.png)
@@ -13,12 +13,13 @@ Foraging for Mushrooms, is it edible or poisonous? Who knows! Adventure through 
 
 ## IceBox:
 - Add typewriter animation on story text
-- Add in my own art & design instead of placeholder art
+- Add in my own gameplay photos & design instead of placeholder art
 - Add in more story options and endings
 - Add custom audio files in place of placeholder audio
+- Add audio on certain button click events
 
 ## Attributions:
-Font Links
+Font Link
  - [Google Fonts](https://fonts.google.com/)
 
 Animation Link

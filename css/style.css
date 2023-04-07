@@ -17,9 +17,16 @@ body {
 }
 h1{
   color:#ffffff;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 60px;
+  margin: 10px;
+}
+h2{
+  color:#ffffff;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 30px;
 }
 .audio-btn{
   display: flex;
@@ -29,7 +36,7 @@ h1{
 .container{
   width: 800px;
   max-width: 80%;
-  background-color: #ffffff;
+  background-color: rgb(252,243,236);
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -39,9 +46,9 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   padding: 20px;
   text-align: center;
 }
@@ -53,20 +60,18 @@ h1{
   margin-top: 20px;
 }
 .btn {
-  background-color: rgb(143,207,204);
+  background-color: rgb(237,171,138);
   border: none;
   color: #ffffff;
   padding: 5px 10px;
   border-radius: 10px;
   width: 50%;
-  height: 60px;
-  font-family: 'Amatic SC', cursive;
+  height: 70px;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
 }
-.btn:hover {
-  box-shadow: rgb(34, 119, 113) 0 0 5px 1px;
-}
+
 .img-grid {
   display: flex;
   gap: 60px;
