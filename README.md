@@ -2,7 +2,7 @@
 Is it edible or poisonous? Who knows! Adventure through this Animal Crossing New Horizons themed text-based story game to find out! Try not to poison yourself or your friend!
 ## Play the game [here](https://foraging-adventure.netlify.app)
 
-![Screen Shot 2023-04-06 at 11 07 04 AM](https://user-images.githubusercontent.com/127788664/230435773-1d9a0b46-8e8e-4667-92aa-fa655c7a36e0.png)
+![Screen Shot 2023-04-06 at 10 13 48 PM](https://user-images.githubusercontent.com/127788664/230533773-2e5fc9de-2249-473c-a228-1314efe1feab.png)
 
 ## Technology Used:
 - JavaScript
