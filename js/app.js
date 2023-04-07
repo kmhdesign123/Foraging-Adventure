@@ -19,7 +19,7 @@ showStoryElements(1)
 }
 
 audioBtnEl.addEventListener('click', function(evt){
-  backgroundAudio.volume = .03
+  backgroundAudio.volume = 1
   backgroundAudio.play()
 })
 
