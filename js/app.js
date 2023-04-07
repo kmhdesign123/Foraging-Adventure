@@ -1,17 +1,12 @@
 import storyOptions from "./story-data.js"
 
-/*---------------------------- Variables (state) ----------------------------*/
-
 let playerState = {}
-
-/*------------------------ Cached Element References ------------------------*/
 
 const storyEl = document.getElementById(`story-text`)
 const optionBtnEl = document.getElementById(`option-btns`)
 const optionImgEl = document.getElementById(`option-imgs`)
 const audioBtnEl = document.getElementById(`audio-play`)
 const backgroundAudio = new Audio(`../audio/background-sound.mp3`)
-/*-------------------------------- Functions --------------------------------*/
 
 function startStory() {
 playerState = {}
@@ -19,10 +14,9 @@ showStoryElements(1)
 }
 
 audioBtnEl.addEventListener('click', function(evt){
-  backgroundAudio.volume = 1
+  backgroundAudio.volume = .1
   backgroundAudio.play()
 })
-
 
 function showStoryElements(storyOptionIndex) {
   const storyOption = storyOptions.find(storyOption => storyOption.part === storyOptionIndex)
@@ -53,7 +47,6 @@ function showStoryElements(storyOptionIndex) {
       image.classList.add(`img`)
       image.src = link.location
       optionImgEl.appendChild(image)
-
   })
 }
 
@@ -66,9 +59,5 @@ showStoryElements(nextStoryOptionId)
 function showOption(option) {
   return option.requiredPlayerState == null || option.requiredPlayerState(playerState)
 }
-
-// function showImage(image) {
-//   return true
-// }
 
 startStory()
