@@ -18,6 +18,10 @@ Is it edible or poisonous? Who knows! Adventure through this Animal Crossing New
 - Add in more story options and endings
 - Add custom audio files in place of placeholder audio
 - Add audio on certain button click events
+- Add in specific mushroom items to pick up
+- Add in a mushroom identification guide
+- Add visual inventory 
+- Add in cooking with selected inventory items
 
 ## Attributions:
 Font Link
