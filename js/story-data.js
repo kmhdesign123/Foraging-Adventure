@@ -103,7 +103,7 @@ const storyOptions = [
     ],
     options: [
       {
-        text:`Pick the mushrooms and head back to start on that stew!`,
+        text:`Pick the mushrooms and head back to start on that stew!`,220
         nextPart: 4
       },
       {
